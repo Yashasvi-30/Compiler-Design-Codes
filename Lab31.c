@@ -35,7 +35,7 @@ int main() {
 
     //create output file replace scanf with read and printf with write 
     FILE *output_file;
-    output_file = fopen("output.txt", "w");
+    output_file = fopen("outputLab3.txt", "w");
     if (output_file == NULL) {
         printf("Error opening file.\n");
         return 1;
